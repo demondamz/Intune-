@@ -1,0 +1,7 @@
+﻿DisplayName,Description
+SG_MEM_iOS_Compliance_Users,All Microsoft Endpoint Manager iOS POC Users
+SG_MEM_Android_Compliance_Users,All Microsoft Endpoint Manager Android POC Users
+SG_MEM_Windows_Compliance_Users,All Microsoft Endpoint Manager Windows POC Users
+SG_MEM_iOS_Managed_Devices,All Microsoft Endpoint Manager enrolled corporate iOS POC Devices
+SG_MEM_Android_Fully_Managed_Devices,All Microsoft Endpoint Manager enrolled corporate Android POC Devices
+SG_MEM_Managed_Windows_Devices,All Microsoft Endpoint Manager enrolled corporate Windows POC Devices

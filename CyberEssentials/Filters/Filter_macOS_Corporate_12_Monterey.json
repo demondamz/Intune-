@@ -1,0 +1,12 @@
+{
+    "id":  "1b2f4e97-7242-41fc-b6e7-f63a75f783de",
+    "createdDateTime":  "2022-04-21T15:30:37.9807104Z",
+    "lastModifiedDateTime":  "2022-04-21T15:30:37.9807104Z",
+    "displayName":  "Filter_macOS_Corporate_12_Monterey",
+    "description":  "",
+    "platform":  "macOS",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\") and (device.osVersion -startsWith \"12.\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

@@ -1,0 +1,12 @@
+{
+    "id":  "e42f25a9-ad49-4793-a8b3-8e3ea42b9cac",
+    "createdDateTime":  "2022-04-25T15:17:33.7486321Z",
+    "lastModifiedDateTime":  "2022-04-25T15:17:33.7798726Z",
+    "displayName":  "Filter_macOS_BYOD_All",
+    "description":  "",
+    "platform":  "macOS",
+    "rule":  "(device.deviceOwnership -eq \"Personal\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

@@ -1,0 +1,5 @@
+﻿DisplayName,Description,MembershipRule
+SG_MAM_Users_All,All Mobile App Protection Users,(user.accountEnabled -eq True) and (user.assignedPlans -any (assignedPlan.servicePlanId -eq "c1ec4a95-1f05-45b3-a911-aa3fa01094f5" -and assignedPlan.capabilityStatus -eq "Enabled"))
+SG_MEM_Devices_Windows_Corporate_All,,
+SG_MEM_Devices_Android_Corporate_All,,
+SG_MEM_Devices_iOS_Corporate_All,,

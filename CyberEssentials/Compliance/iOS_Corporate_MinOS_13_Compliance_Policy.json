@@ -1,0 +1,43 @@
+{
+    "@odata.type": "#microsoft.graph.iosCompliancePolicy",
+    "roleScopeTagIds": [
+      "0"
+    ],
+    "id": "8c088ff3-9b44-426a-8cc8-e2414c01aaf7",
+    "createdDateTime": "2022-05-06T11:22:59.7673311Z",
+    "description": null,
+    "lastModifiedDateTime": "2022-05-06T11:22:59.7673311Z",
+    "displayName": "iOS_Corporate_MinOS_13_Compliance_Policy",
+    "version": 1,
+    "passcodeBlockSimple": false,
+    "passcodeExpirationDays": null,
+    "passcodeMinimumLength": null,
+    "passcodeMinutesOfInactivityBeforeLock": null,
+    "passcodeMinutesOfInactivityBeforeScreenTimeout": null,
+    "passcodePreviousPasscodeBlockCount": null,
+    "passcodeMinimumCharacterSetCount": null,
+    "passcodeRequiredType": "deviceDefault",
+    "passcodeRequired": false,
+    "osMinimumVersion": "13.7",
+    "osMaximumVersion": "13.99.99",
+    "osMinimumBuildVersion": null,
+    "osMaximumBuildVersion": null,
+    "securityBlockJailbrokenDevices": false,
+    "deviceThreatProtectionEnabled": false,
+    "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+    "advancedThreatProtectionRequiredSecurityLevel": "unavailable",
+    "managedEmailProfileRequired": false,
+    "restrictedApps": [],
+    "scheduledActionsForRule": [
+      {
+        "ruleName": "blockAction",
+        "scheduledActionConfigurations": [
+          {
+            "actionType": "block",
+            "gracePeriodHours": 336,
+            "notificationTemplateId": ""
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "id":  "3af86eef-4ab8-439a-868b-be5c607480a6",
+    "createdDateTime":  "2022-05-06T09:25:57.3982179Z",
+    "lastModifiedDateTime":  "2022-05-06T09:25:57.3982179Z",
+    "displayName":  "Filter_Android_Enterprise_Corporate_OS_10",
+    "description":  "",
+    "platform":  "androidForWork",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\") and (device.osVersion -startsWith \"10\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

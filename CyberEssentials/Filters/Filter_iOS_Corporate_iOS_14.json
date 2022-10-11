@@ -1,0 +1,12 @@
+{
+    "id":  "c85f8089-67e1-41db-ae31-6e3670f8597f",
+    "createdDateTime":  "2022-04-21T15:31:43.6651802Z",
+    "lastModifiedDateTime":  "2022-04-21T15:31:43.6651802Z",
+    "displayName":  "Filter_iOS_Corporate_iOS_14",
+    "description":  "",
+    "platform":  "iOS",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\") and (device.osVersion -startsWith \"14\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

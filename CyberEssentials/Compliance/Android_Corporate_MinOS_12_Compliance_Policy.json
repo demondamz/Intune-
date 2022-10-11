@@ -1,0 +1,46 @@
+{
+    "@odata.type":  "#microsoft.graph.androidDeviceOwnerCompliancePolicy",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "id":  "5fdf73f9-8264-4b0d-a32c-6c79005a562b",
+    "createdDateTime":  "2022-05-04T10:47:49.4981556Z",
+    "description":  null,
+    "lastModifiedDateTime":  "2022-05-05T13:21:02.9579742Z",
+    "displayName":  "Android_Corporate_MinOS_12_Compliance_Policy",
+    "version":  6,
+    "deviceThreatProtectionEnabled":  false,
+    "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "advancedThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "securityRequireSafetyNetAttestationBasicIntegrity":  false,
+    "securityRequireSafetyNetAttestationCertifiedDevice":  false,
+    "osMinimumVersion":  "12.0",
+    "osMaximumVersion":  null,
+    "minAndroidSecurityPatchLevel":  "2022-06-01",
+    "passwordRequired":  null,
+    "passwordMinimumLength":  null,
+    "passwordMinimumLetterCharacters":  null,
+    "passwordMinimumLowerCaseCharacters":  null,
+    "passwordMinimumNonLetterCharacters":  null,
+    "passwordMinimumNumericCharacters":  null,
+    "passwordMinimumSymbolCharacters":  null,
+    "passwordMinimumUpperCaseCharacters":  null,
+    "passwordRequiredType":  "numeric",
+    "passwordMinutesOfInactivityBeforeLock":  null,
+    "passwordExpirationDays":  null,
+    "passwordPreviousPasswordCountToBlock":  null,
+    "storageRequireEncryption":  null,
+    "securityRequireIntuneAppIntegrity":  null,
+    "scheduledActionsForRule": [
+        {
+          "ruleName": "blockAction",
+          "scheduledActionConfigurations": [
+            {
+              "actionType": "block",
+              "gracePeriodHours": 336,
+              "notificationTemplateId": ""
+            }
+          ]
+        }
+      ]
+}

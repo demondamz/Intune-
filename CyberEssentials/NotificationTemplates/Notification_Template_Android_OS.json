@@ -1,0 +1,11 @@
+{
+    "@odata.type":  "#microsoft.graph.notificationMessageTemplate",
+    "brandingOptions":  "includeCompanyLogo,includeCompanyName,includeContactInformation,includeCompanyPortalLink",
+    "defaultLocale":  "en-gb",
+    "displayName":  "Notification_Template_Android_OS",
+    "id":  "8cc4c5f9-4a98-427a-9c4d-e0d86c707d79",
+    "lastModifiedDateTime":  "2022-07-25T23:52:01.3361821Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ]
+}

@@ -1,0 +1,12 @@
+{
+    "id":  "fd32ffb0-dd09-4ff4-8ee8-3cfc695bc635",
+    "createdDateTime":  "2022-04-21T09:52:11.1414147Z",
+    "lastModifiedDateTime":  "2022-04-21T09:52:11.1414147Z",
+    "displayName":  "Filter_iOS_BYOD_All",
+    "description":  "",
+    "platform":  "iOS",
+    "rule":  "(device.deviceOwnership -eq \"Personal\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

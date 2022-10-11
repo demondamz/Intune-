@@ -1,0 +1,12 @@
+{
+    "id":  "c9b99bcc-8992-4211-8c68-11f1b638875a",
+    "createdDateTime":  "2022-04-21T15:29:21.0475837Z",
+    "lastModifiedDateTime":  "2022-04-21T15:29:21.0475837Z",
+    "displayName":  "Filter_macOS_Corporate_10.15_Catalina",
+    "description":  "",
+    "platform":  "macOS",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\") and (device.osVersion -startsWith \"10.15\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

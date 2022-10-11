@@ -1,0 +1,12 @@
+{
+    "id":  "1f9af023-fefb-4ec0-a9a0-17a581e34063",
+    "createdDateTime":  "2022-04-21T09:51:52.0553837Z",
+    "lastModifiedDateTime":  "2022-04-21T09:51:52.0553837Z",
+    "displayName":  "Filter_Android_BYOD_Work_Profile_All",
+    "description":  "",
+    "platform":  "androidForWork",
+    "rule":  "(device.deviceOwnership -eq \"Personal\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

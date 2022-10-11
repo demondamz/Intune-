@@ -1,0 +1,12 @@
+{
+    "id":  "d6b30bf0-37a8-4f47-adfd-eccf0778df40",
+    "createdDateTime":  "2022-04-21T09:50:25.8713211Z",
+    "lastModifiedDateTime":  "2022-04-21T09:50:25.8713211Z",
+    "displayName":  "Filter_macOS_Corporate_All",
+    "description":  "",
+    "platform":  "macOS",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

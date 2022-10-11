@@ -1,0 +1,12 @@
+{
+    "id":  "29d2b843-e2e2-4de6-90e0-9723c9cc126c",
+    "createdDateTime":  "2021-12-15T11:52:51.0904344Z",
+    "lastModifiedDateTime":  "2021-12-15T11:52:51.0904344Z",
+    "displayName":  "Filter_Windows_Corporate_All",
+    "description":  "",
+    "platform":  "windows10AndLater",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

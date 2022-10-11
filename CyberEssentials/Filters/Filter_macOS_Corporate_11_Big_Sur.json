@@ -1,0 +1,12 @@
+{
+    "id":  "f861ab3b-fa24-48c1-a5c4-1178e589cf68",
+    "createdDateTime":  "2022-04-21T15:30:04.6665802Z",
+    "lastModifiedDateTime":  "2022-04-21T15:30:04.6665802Z",
+    "displayName":  "Filter_macOS_Corporate_11_Big_Sur",
+    "description":  "",
+    "platform":  "macOS",
+    "rule":  "(device.deviceOwnership -eq \"Corporate\") and (device.osVersion -startsWith \"11.\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

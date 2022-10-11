@@ -1,0 +1,12 @@
+{
+    "id":  "d4122ba2-7e9a-40e6-a2e2-e7936175be5d",
+    "createdDateTime":  "2022-03-21T09:02:55.5371238Z",
+    "lastModifiedDateTime":  "2022-03-21T09:02:55.5371238Z",
+    "displayName":  "Filter_Windows_BYOD_All",
+    "description":  "",
+    "platform":  "windows10AndLater",
+    "rule":  "(device.deviceOwnership -eq \"Personal\")",
+    "roleScopeTags":  [
+                          "0"
+                      ]
+}

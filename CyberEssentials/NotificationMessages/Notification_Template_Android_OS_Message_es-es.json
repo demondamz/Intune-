@@ -1,0 +1,9 @@
+{
+    "@odata.type":  "#microsoft.graph.localizedNotificationMessage",
+    "id":  "8cc4c5f9-4a98-427a-9c4d-e0d86c707d79_es-es",
+    "isDefault":  false,
+    "lastModifiedDateTime":  "2022-07-25T23:52:01.606483Z",
+    "locale":  "es-es",
+    "messageTemplate":  "Spanish You\u0027re device has been marked as non-compliant.",
+    "subject":  "Spanish Notification of Non-Compliance"
+}
