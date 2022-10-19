@@ -302,7 +302,7 @@ $Sleep = '5'
 
 Write-Host '************************************************************************************'
 Write-Host '****                                                                            ****'
-Write-Host '****    Welcome to the Phoenix Software Endpoint Manager Accelerator Script     ****' -ForegroundColor Green
+Write-Host '****    Welcome to the Endpoint Manager Accelerator Script                      ****' -ForegroundColor Green
 Write-Host '****    This Script will implement a known good Endpoint Manager baseline       ****' -ForegroundColor Cyan
 Write-Host '****    for Windows, iOS/iPadOS and Android devices.                            ****' -ForegroundColor Cyan
 Write-Host '****                                                                            ****'
