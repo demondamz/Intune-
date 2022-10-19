@@ -430,7 +430,7 @@ Start-Sleep -Seconds $Sleep
 Try {
     Write-Host "Starting the backup of $Customer Endpoint Manager configuration to $BackupFolder" -f Yellow
     Write-Host
-    Start-IntuneBackup -Path $BackupFolder | Out-Null
+    # Start-IntuneBackup -Path $BackupFolder | Out-Null
     Write-Host "Backup of $Customer Endpoint Manager configuration to $BackupFolder completed successfully" -f Green
     Write-Host
 }

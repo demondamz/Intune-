@@ -12,8 +12,8 @@ Using the `ConditionalAccess` parameter, you can instruct the script to import t
 
 # EXAMPLES
 ```PowerShell
-Set-MEMCyberEssentials.ps1 -Windows Corporate -Android Both -iOS BYOD -Assign $True -ConditionalAccess $False
+.\Set-MEMCyberEssentials.ps1 -Windows Corporate -Android Both -iOS BYOD -Assign $True -ConditionalAccess $False
 
-Set-MEMCyberEssentials.ps1 -Windows Corporate -Android Corporate -iOS Corporate -macOS BYOD -Assign $False -ConditionalAccess $True
+.\Set-MEMCyberEssentials.ps1 -Windows BYOD -Android BYOD -iOS BYOD -macOS BYOD -Assign $True -ConditionalAccess $False
 
 ```
